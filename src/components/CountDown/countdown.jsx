@@ -18,7 +18,7 @@ export default function CountDown(){
         }
 
             function setTimings(){
-            datas(ClassList(setCurrentDay))
+            
             
             datas.forEach(async(l)=>{
                 this.state.lecLists.push(l.from)
